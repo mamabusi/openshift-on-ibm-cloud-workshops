@@ -1,4 +1,3 @@
-[日本語はこちら - Japanese version](./README-ja.md)
 
 # Deploying Java Microservices to OpenShift on IBM Cloud
 
@@ -9,8 +8,6 @@ The microservice is kept as simple as possible, so that it can be used as a star
 There are [various ways to deploy applications to OpenShift](http://heidloff.net/article/deploying-open-liberty-microservices-openshift/). The options have different advantages and disadvantages which are explained in the following labs.
 
 ## Labs
-
-This workshop has seven labs. It should take between 60 and 90 minutues to complete the workshop.
 
 0. [Overview video (1:41 mins)](https://youtu.be/8361HGR_O_s)
 1. Installing prerequisites: [lab](documentation/1-prereqs.md) and [video (2:58 mins)](https://youtu.be/c5CtqijWXL4) and the [video including windows (4:11 mins)](https://youtu.be/53XccO3NNn8)
