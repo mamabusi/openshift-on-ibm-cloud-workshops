@@ -9,26 +9,19 @@ There are [various ways to deploy applications to OpenShift](http://heidloff.net
 
 ## Labs
 
-1. Installing prerequisites: [lab](documentation/1-prereqs.md) and [video (2:58 mins)](https://youtu.be/c5CtqijWXL4) and the [video including windows (4:11 mins)](https://youtu.be/53XccO3NNn8)
-2. Optional: Running the Java microservice locally: [lab](documentation/2-docker.md) and [video (3:51 mins)](https://youtu.be/4dT2jg6wGF4)
-3. Optional: Understanding the Java implementation: [lab](documentation/3-java.md) and [video (9:09 mins)](https://www.youtube.com/watch?v=ugpYSPV9jAs)
-4. Deploying to OpenShift via 'oc' CLI: [lab](documentation/4-openshift.md) and [video (14:32 mins)](https://youtu.be/4MDfalo2Fg0)
-5. Deploying existing images to OpenShift: [lab](documentation/5-existing-image.md) and [video (7:09 mins)](https://youtu.be/JhxsS7l6DhA)
-6. Deployments of code in GitHub repos: [lab](documentation/6-github.md) and [video (3:52 mins)](https://youtu.be/b3upMuZOpsY)
-7. Source to Image deployments: [lab](documentation/7-source-to-image.md) and [video (7:06 mins)](https://youtu.be/p6lVc6MDrcM)
-8. Distributed logging with LogDNA and OpenShift on IBM Cloud: [lab](documentation/8-logdna-openshift.md)
+1. Deploying to OpenShift via 'oc' CLI: [lab](documentation/4-openshift.md) and [video (14:32 mins)](https://youtu.be/4MDfalo2Fg0)
+2. Deploying existing images to OpenShift: [lab](documentation/5-existing-image.md) and [video (7:09 mins)](https://youtu.be/JhxsS7l6DhA)
+3. Deployments of code in GitHub repos: [lab](documentation/6-github.md) and [video (3:52 mins)](https://youtu.be/b3upMuZOpsY)
+4. Source to Image deployments: [lab](documentation/7-source-to-image.md) and [video (7:06 mins)](https://youtu.be/p6lVc6MDrcM)
+5. Distributed logging with LogDNA and OpenShift on IBM Cloud: [lab](documentation/8-logdna-openshift.md)
 
-The first lab describes how to install all required prerequisites. In the easiest case this is only Docker Desktop and an image with all other tools.
-
-Lab 2 and 3 describe how to develop a microservice with Java EE and Eclipse MicroProfile and are useful if you are interested in programming, hence they are optional.
-
-The next four labs explain four different ways to deploy applications to OpenShift with their pros and cons in this specific scenario:
+The first four labs explain four different ways to deploy applications to OpenShift with their pros and cons in this specific scenario:
 
 | Option | Dockerfile | yaml Files | Java Build | Docker Build |
 | - | - | - | - | - |
-| Lab 4: Kubernetes-like | required | required | OpenShift | OpenShift |
-| Lab 5: Existing Image  | not required  | not required | N/A | N/A |
-| Lab 6: Git Repo | required  | not required | OpenShift | OpenShift |
-| Lab 7: Source to Image | not required | not required | Desktop | OpenShift |
+| Lab 1: Kubernetes-like | required | required | OpenShift | OpenShift |
+| Lab 2: Existing Image  | not required  | not required | N/A | N/A |
+| Lab 3: Git Repo | required  | not required | OpenShift | OpenShift |
+| Lab 4: Source to Image | not required | not required | Desktop | OpenShift |
 
 The last lab shows how to create a LogDNA logging service on IBM Cloud and connect it with OpenShift to collect distributed logs.
