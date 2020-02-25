@@ -9,7 +9,6 @@ There are [various ways to deploy applications to OpenShift](http://heidloff.net
 
 ## Labs
 
-0. [Overview video (1:41 mins)](https://youtu.be/8361HGR_O_s)
 1. Installing prerequisites: [lab](documentation/1-prereqs.md) and [video (2:58 mins)](https://youtu.be/c5CtqijWXL4) and the [video including windows (4:11 mins)](https://youtu.be/53XccO3NNn8)
 2. Optional: Running the Java microservice locally: [lab](documentation/2-docker.md) and [video (3:51 mins)](https://youtu.be/4dT2jg6wGF4)
 3. Optional: Understanding the Java implementation: [lab](documentation/3-java.md) and [video (9:09 mins)](https://www.youtube.com/watch?v=ugpYSPV9jAs)
