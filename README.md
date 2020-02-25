@@ -1,4 +1,3 @@
-[日本語はこちら - Japanese version](./README-ja.md)
 
 # OpenShift on IBM Cloud Workshops
 
@@ -12,35 +11,11 @@ This repository holds a series of workshops that help you as a developer to beco
 
 In order to run these workshops, you need an [IBM Cloud account](https://cloud.ibm.com/registration).
 
-## Workshop 1: [Understanding OpenShift](1-understanding-openshift/README.md#understanding-openshift)
-
-In this workshop we will show you how to create your own OpenShift cluster on the IBM Cloud, how to use the `oc` CLI (command line interface) and how to use the OpenShift Web Console to deploy applications.
-
-* Duration: 60 - 90 minutes
-* Audience: Beginner
-
-<kbd><img src="images/workshop-1.png" /></kbd>
-
-**Labs**
-
-0. [Overview video (3:42 mins)](https://youtu.be/cotKSI-S1Ng)
-1. Introduction: [video (2:04 mins)](https://www.youtube.com/watch?v=hdwDMsDF9J8) and [video (5:45 mins)](https://www.youtube.com/watch?v=l4Vrj7mkxhQ)
-2. Create an OpenShift cluster on the IBM Cloud: [lab](1-understanding-openshift/Part2.md) and [video (3:17 mins)](https://youtu.be/9xgqDP2B3WI)
-3. Getting started with OpenShift for developers: [lab](https://learn.openshift.com/introduction/getting-started/) and [video (12:38 mins)](https://www.youtube.com/watch?v=boJOI0DgSTc&list=PL0Mrq9ES4ERfGpB0K5PHYmvl2xV60GSQz&index=4&t=0s)
-4. Deploying applications from images: [lab](https://learn.openshift.com/introduction/deploying-images/) and [video (9:00 mins)](https://www.youtube.com/watch?v=v_j3TiurPQc&list=PL0Mrq9ES4ERfGpB0K5PHYmvl2xV60GSQz&index=5&t=0s)
-5. Deploying applications from source: [lab](https://learn.openshift.com/introduction/deploying-python/) and [video (10:28 mins)](https://www.youtube.com/watch?v=2CtThlhgOYs&list=PL0Mrq9ES4ERfGpB0K5PHYmvl2xV60GSQz&index=6&t=0s)
-6. Deploy an application on OpenShift on the IBM Cloud: [lab](1-understanding-openshift/Part4.md) and [video (14:20 mins)](https://www.youtube.com/watch?v=7XBbuPjsUqU&list=PL0Mrq9ES4ERfGpB0K5PHYmvl2xV60GSQz&index=7&t=0s)
-
----
-
-## Workshop 2: [Deploying Java Microservices to OpenShift on IBM Cloud](https://github.com/nheidloff/openshift-on-ibm-cloud-workshops/tree/master/2-deploying-to-openshift#deploying-java-microservices-to-openshift-on-ibm-cloud)
+## Workshop: [Deploying Java Microservices to OpenShift on IBM Cloud](https://github.com/nheidloff/openshift-on-ibm-cloud-workshops/tree/master/2-deploying-to-openshift#deploying-java-microservices-to-openshift-on-ibm-cloud)
 
 This workshop demonstrates how to build a microservice with Java and how to deploy it to OpenShift on the IBM Cloud.
 
 The microservice is kept as simple as possible, so that it can be used as a starting point for other microservices. The microservice has been developed with Java EE and Eclipse MicroProfile.
-
-* Duration: 60 - 90 minutes
-* Audience: Intermediate
 
 <kbd><img src="images/workshop-2.png" /></kbd>
 
