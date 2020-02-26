@@ -31,18 +31,26 @@ The following gif is an animation of the simplified steps above in a sequence.
 
 ## Step 1: Create an Open Shift project
 
+**Make sure** you are logged on to your OpenShift cluster.
+[See here.](https://app.gitbook.com/@openshiftworkshop/s/openshiftworkshop1/)
+
+<Remove> (https://github.com/nheidloff/openshift-on-ibm-cloud-workshops/blob/master/2-deploying-to-openshift/documentation/1-prereqs.md#verify-access-to-openshift-on-the-ibm-cloud)
+ 
+ Download the source code:
+ ```
+$ ROOT_FOLDER=$(pwd)
+$ cd ${ROOT_FOLDER}/2-deploying-to-openshift
+
+```
+
 We need an OpenShift project, this is simply put equivalent to a Kubernetes namespace plus OpenShift security. Let us create one.
 
 _Note:_ A [project allows](https://docs.openshift.com/container-platform/3.7/dev_guide/projects.html#overview) a community of users to organize and manage their content in isolation from other communities.
 
 ```
-$ ROOT_FOLDER=$(pwd)
-$ cd ${ROOT_FOLDER}/2-deploying-to-openshift
 $ oc new-project cloud-native-starter
 ```
 
-**Make sure** you are logged on to your OpenShift cluster.
-[See here.](https://github.com/nheidloff/openshift-on-ibm-cloud-workshops/blob/master/2-deploying-to-openshift/documentation/1-prereqs.md#verify-access-to-openshift-on-the-ibm-cloud)
 
 ## Step 2: Build and save the container image in the Open Shift Container Registry
 
