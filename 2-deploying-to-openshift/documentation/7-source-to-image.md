@@ -8,7 +8,7 @@ OpenShift allows developers to deploy applications without having to understand 
 
 Source-to-Image (S2I) is a toolkit for building reproducible container images from source code. S2I produces ready-to-run images by injecting source code into a container image.
 
-In order to use S2I, builder images are needed. These builder images create the actual images with the applications. The builder images are similar to Cloud Foundry buildpacks.
+In order to use S2I, builder images are needed. These builder images create the actual images with the applications.
 
 ## Deployment of the Open Liberty Builder Image
 
