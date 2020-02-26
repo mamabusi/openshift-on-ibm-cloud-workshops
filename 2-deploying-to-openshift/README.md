@@ -14,7 +14,7 @@ There are [various ways to deploy applications to OpenShift](http://heidloff.net
 3. Deployments of code in GitHub repos: [lab](documentation/6-github.md) and [video (3:52 mins)](https://youtu.be/b3upMuZOpsY)
 4. Source to Image deployments: [lab](documentation/7-source-to-image.md) and [video (7:06 mins)](https://youtu.be/p6lVc6MDrcM)
 
-The first four labs explain four different ways to deploy applications to OpenShift with their pros and cons in this specific scenario:
+The four labs explain four different ways to deploy applications to OpenShift with their pros and cons in this specific scenario:
 
 | Option | Dockerfile | yaml Files | Java Build | Docker Build |
 | - | - | - | - | - |
@@ -22,5 +22,3 @@ The first four labs explain four different ways to deploy applications to OpenSh
 | Lab 2: Existing Image  | not required  | not required | N/A | N/A |
 | Lab 3: Git Repo | required  | not required | OpenShift | OpenShift |
 | Lab 4: Source to Image | not required | not required | Desktop | OpenShift |
-
-The last lab shows how to create a LogDNA logging service on IBM Cloud and connect it with OpenShift to collect distributed logs.
