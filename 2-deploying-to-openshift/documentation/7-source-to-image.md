@@ -124,6 +124,3 @@ $ oc get route/authors
 To test the deployment, append '/openapi/ui' to the URL in the output of 'oc get route/authors' and open it in a browser.
 
 ---
-
-:star: __Continue with [Distributed logging with LogDNA and OpenShift on IBM Cloud](8-logdna-openshift.md)__
-
