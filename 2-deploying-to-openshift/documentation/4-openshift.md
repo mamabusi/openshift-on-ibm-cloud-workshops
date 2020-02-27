@@ -38,6 +38,8 @@ The following gif is an animation of the simplified steps above in a sequence.
  
  Download the source code:
  ```
+$ git clone https://github.com/IBM/openshift-on-ibm-cloud-workshops.git
+$ cd openshift-on-ibm-cloud-workshops
 $ ROOT_FOLDER=$(pwd)
 $ cd ${ROOT_FOLDER}/2-deploying-to-openshift
 
