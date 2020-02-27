@@ -1,4 +1,4 @@
-# Lab 7 - Source to Image Deployments
+# Lab 4 - Source to Image Deployments
 
 > Source to Image deployments: [video (7:06 mins)](https://youtu.be/p6lVc6MDrcM)
 
@@ -53,32 +53,16 @@ The image builder expects a certain directory structure of Open Liberty projects
 * server.xml in the root directory
 * *.war file in the target directory
 
-Before the code can be pushed to OpenShift, the 'war' file (Java web archive with microservice) needs to be built with Maven. Note: Maven is installed in the Cloud Shell. If you are using Cloud Shell, run Maven "locally" as instructed a little further down!
+Before the code can be pushed to OpenShift, the 'war' file (Java web archive with microservice) needs to be built with Maven. Note: Maven is installed in the Cloud Shell. Run Maven "locally" as instructed below:
 
-The tools image 'nheidloff/openshift-workshop-tools:v1' comes with Maven installed. Run the tools image from the root directory.
-
-```
-$ cd ${ROOT_FOLDER}
-$ docker run -v $ROOT_FOLDER/:/cloud-native-starter -it --rm nheidloff/openshift-workshop-tools:v1
-```
-
-In the terminal with the running tools container, invoke these commands to start the Java build process.
+In the terminal, invoke these commands to start the Java build process.
 
 ```
-$ cd /cloud-native-starter/
-$ ROOT_FOLDER=$(pwd)
 $ cd ${ROOT_FOLDER}/2-deploying-to-openshift
 $ mvn package
 ```
 
 After you've run these commands, the file 'authors.war' will appear in the 'target' directory.
-
-Alternatively you can also run Maven locally or in the **Cloud Shell**, if you've [installed](https://maven.apache.org/install.html) it. In this case invoke the commands on your local machine:
-
-```
-$ cd ${ROOT_FOLDER}/2-deploying-to-openshift
-$ mvn package
-```
 
 ### Step 6
 
