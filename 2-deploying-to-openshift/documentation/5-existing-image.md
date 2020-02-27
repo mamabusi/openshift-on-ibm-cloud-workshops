@@ -1,4 +1,4 @@
-# Lab 5 - Deploying existing Images from Docker Hub
+# Lab 2 - Deploying existing Images from Docker Hub
 
 > Deploying existing images to OpenShift: [video (7:09 mins)](https://youtu.be/JhxsS7l6DhA)
 
@@ -83,4 +83,4 @@ $ docker push $DOCKER_ACCOUNT/authors:v1
 
 ---
 
-:star: __Continue with [Lab 6 - Deployments of Code in GitHub Repos](./6-github.md)__
+:star: __Continue with [Lab 3 - Deployments of Code in GitHub Repos](./6-github.md)__
