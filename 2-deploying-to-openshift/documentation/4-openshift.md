@@ -1,4 +1,4 @@
-# Lab 4 - Deploying to OpenShift
+# Lab 1 - Deploying to OpenShift
 
 > Deploying to OpenShift via 'oc' CLI: [video (14:32 mins)](https://youtu.be/4MDfalo2Fg0)
 
@@ -306,6 +306,6 @@ This is the Swagger UI in your browser:
 
 ---
 
-:star: __Continue with [Lab 5 - Deploying existing Images from Docker Hub](./5-existing-image.md)__
+:star: __Continue with [Lab 2 - Deploying existing Images from Docker Hub](./5-existing-image.md)__
 
 
