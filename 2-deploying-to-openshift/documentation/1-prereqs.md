@@ -39,14 +39,14 @@ From the dropdown menu in the upper right of the console page, click 'Copy Login
 
 Paste the copied access token command into your terminal.
 
-2. Verify 'oc' CLI
+Verify 'oc' CLI
 
 ```
 $ oc login https://c100-e.eu-de.containers.cloud.ibm.com:32177 --token=xxxxxx'
 $ oc projects
 ```
 
-3. Verify 'kubectl' CLI
+2. Verify 'kubectl' CLI
 
 ```
 $ kubectl get pods
