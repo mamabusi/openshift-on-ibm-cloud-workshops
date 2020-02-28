@@ -2,15 +2,15 @@
 
 > Installing prerequisites: [video (2:58 mins)](https://youtu.be/c5CtqijWXL4) and [video including windows (4:11 mins)](https://youtu.be/53XccO3NNn8)
 
-An [IBM Cloud account](http://bit.ly/OSworkshop2) is needed. 
+An IBM Cloud account is needed. [Register](http://bit.ly/OSworkshop2) if you do not have one.
 
-### Access the OpenShift cluster
+### Access to the OpenShift cluster
 
 We will use the Pre-provisioned Openshift cluster on IBM Cloud in this hands-on workshop.
 
-[Login](https://oswtbain.mybluemix.net) with your registered email id and enter lab key as: **oslab**
+[Login](https://oswtbain.mybluemix.net) with your registered email id used for IBM Cloud account and enter lab key as: **oslab**
 
-<image should come>
+![Key](images/os-cluster.png)
   
 Login to IBM Cloud and access the cluster
   
