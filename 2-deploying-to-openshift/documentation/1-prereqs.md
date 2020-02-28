@@ -10,24 +10,26 @@ We will use the Pre-provisioned Openshift cluster on IBM Cloud in this hands-on 
 
 [Login](https://oswtbain.mybluemix.net) with your registered email id used for IBM Cloud account and enter lab key as: **oslab**
 
-![Key](images/os-cluster.png)
+![Key](images/os-login.png)
   
 Login to IBM Cloud and access the cluster
+
+![Key](images/os-cloudLogin.png)
   
-<Congratulations image>
+![Key](images/os-clusterView.png)
   
 Click on the cluster: 
-<Cluster image>
+![Key](images/os-viewWebconsole.png)
 
 Open the **OpenShift web console**
 
-![Open the OpenShift web console](images/os-registry-03.png)
+![Open the OpenShift web console](images/os-consHomePage.png)
 
 ### Get our access token for the 'oc' CLI. 
 
 
 From the dropdown menu in the upper right of the page, click 'Copy Login Command'. 
-![Key](images/os-key-01.png)
+![Key](images/consHomePageToken.png)
 
 
 
