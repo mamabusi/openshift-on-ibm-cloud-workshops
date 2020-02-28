@@ -69,18 +69,6 @@ Open the Open API user interface to try the REST API.
 <kbd><img src="images/lab-5-step-9.jpg" /></kbd>
 
 
-## Optional: Use your own Image
-
-If you want you can make changes to the Java code and/or image and push these changes to your own Docker Hub account. In order to do this, you need a Docker Hub account and invoke these commands:
-
-```
-$ cd ${ROOT_FOLDER}/2-deploying-to-openshift
-$ DOCKER_ACCOUNT=<your-docker-account>
-$ docker login
-$ docker build -t $DOCKER_ACCOUNT/authors:v1 .
-$ docker push $DOCKER_ACCOUNT/authors:v1
-```
-
 ---
 
 :star: __Continue with [Lab 3 - Deployments of Code in GitHub Repos](./6-github.md)__
