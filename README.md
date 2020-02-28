@@ -11,7 +11,7 @@ This repository holds a series of workshops that help you as a developer to beco
 
 In order to run these workshops, you need an [IBM Cloud account](https://cloud.ibm.com/registration).
 
-## Workshop: [Deploying Java Microservices to OpenShift on IBM Cloud](https://github.com/nheidloff/openshift-on-ibm-cloud-workshops/tree/master/2-deploying-to-openshift#deploying-java-microservices-to-openshift-on-ibm-cloud)
+## Workshop: Deploying Java Microservices to OpenShift on IBM Cloud
 
 This workshop demonstrates how to build a microservice with Java and how to deploy it to OpenShift on the IBM Cloud.
 
