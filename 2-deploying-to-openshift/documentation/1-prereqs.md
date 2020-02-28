@@ -1,7 +1,5 @@
 ### Access to the IBM Cloud
 
-> Installing prerequisites: [video (2:58 mins)](https://youtu.be/c5CtqijWXL4) and [video including windows (4:11 mins)](https://youtu.be/53XccO3NNn8)
-
 An IBM Cloud account is needed. [Register](http://bit.ly/OSworkshop2) if you do not have one.
 
 ### Access to the OpenShift cluster
