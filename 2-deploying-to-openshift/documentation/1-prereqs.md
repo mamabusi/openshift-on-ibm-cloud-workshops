@@ -16,20 +16,22 @@ Login to IBM Cloud and access the cluster
 
 ![Key](images/os-cloudLogin.png)
   
+  
+Click on the cluster:
 ![Key](images/os-clusterView.png)
   
-Click on the cluster: 
+ 
+Open the **OpenShift web console**
 ![Key](images/os-viewWebconsole.png)
 
-Open the **OpenShift web console**
 
-![Open the OpenShift web console](images/os-consHomePage.png)
+This is the OpenShift Web Console
+![Key](images/os-consoleHomePage.png)
 
 ### Get our access token for the 'oc' CLI. 
 
-
-From the dropdown menu in the upper right of the page, click 'Copy Login Command'. 
-![Key](images/consHomePageToken.png)
+From the dropdown menu in the upper right of the console page, click 'Copy Login Command'. 
+![Key](images/os-consHomePageToken.png)
 
 
 
