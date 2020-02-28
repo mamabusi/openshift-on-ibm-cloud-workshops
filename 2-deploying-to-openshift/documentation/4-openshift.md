@@ -31,12 +31,10 @@ The following gif is an animation of the simplified steps above in a sequence.
 
 ## Step 1: Create an Open Shift project
 
-**Make sure** you are logged on to your OpenShift cluster.
-[See here.](https://github.com/mamabusi/openshift-on-ibm-cloud-workshops/blob/master/2-deploying-to-openshift/documentation/1-prereqs.md)
+-> Complete the [Lab set up](https://github.com/mamabusi/openshift-on-ibm-cloud-workshops/blob/master/2-deploying-to-openshift/documentation/1-prereqs.md) before proceeding. 
 
-<Remove> (https://github.com/nheidloff/openshift-on-ibm-cloud-workshops/blob/master/2-deploying-to-openshift/documentation/1-prereqs.md#verify-access-to-openshift-on-the-ibm-cloud)
- 
- Download the source code:
+-> In the same Cloud shell, download the source code:
+
  ```
 $ git clone https://github.com/mamabusi/openshift-on-ibm-cloud-workshops.git
 $ cd openshift-on-ibm-cloud-workshops
