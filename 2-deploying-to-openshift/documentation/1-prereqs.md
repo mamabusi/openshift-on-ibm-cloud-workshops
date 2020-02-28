@@ -26,7 +26,7 @@ Open the **OpenShift web console**
 
 
 This is the OpenShift Web Console
-![Key](images/os-consoleHomePage.png)
+![Key](images/os-consoleHomepage.png)
 
 ### Get our access token for the 'oc' CLI. 
 
@@ -44,7 +44,7 @@ Paste the copied access token command into your terminal.
 2. Verify 'oc' CLI
 
 ```
-$ oc login https://c1-e.us-east.containers.cloud.ibm.com:23967 --token=xxxxxx'
+$ oc login https://c100-e.eu-de.containers.cloud.ibm.com:32177 --token=xxxxxx'
 $ oc projects
 ```
 
