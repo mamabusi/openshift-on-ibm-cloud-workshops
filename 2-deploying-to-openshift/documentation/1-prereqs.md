@@ -6,7 +6,7 @@ An IBM Cloud account is needed. [Register](http://bit.ly/OSworkshop2) if you do 
 
 ### Access to the OpenShift cluster
 
-We will use the Pre-provisioned Openshift cluster on IBM Cloud in this hands-on workshop.
+We will use the pre-provisioned Openshift cluster on IBM Cloud in this hands-on workshop.
 
 [Login](https://oswtbain.mybluemix.net) with your registered email id used for IBM Cloud account and enter lab key as: **oslab**
 
