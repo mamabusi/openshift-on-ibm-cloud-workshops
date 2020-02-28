@@ -1,10 +1,10 @@
-## Access to the IBM Cloud
+### Access to the IBM Cloud
 
 > Installing prerequisites: [video (2:58 mins)](https://youtu.be/c5CtqijWXL4) and [video including windows (4:11 mins)](https://youtu.be/53XccO3NNn8)
 
 An [IBM Cloud account](http://bit.ly/OSworkshop2) is needed. 
 
-### Access the cluster
+### Access the OpenShift cluster
 
 We will use the Pre-provisioned Openshift cluster on IBM Cloud in this hands-on workshop.
 
