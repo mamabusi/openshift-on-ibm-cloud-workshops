@@ -60,21 +60,9 @@ You should now be able to login successfully to your cluster.
 
 ## Deploy an application on OpenShift on the IBM Cloud
 
-The setup of the OpenShift cluster must be completed to finish this workshop. It is completely set up when the worker node(s) show a status of "Normal" in the "Worker Nodes" section __AND__
+The setup of the OpenShift cluster must be completed to be able to run through this workshop. 
 
-![OS Create 1g](images/os_worker_rdy.png)
-
-if there is a "Ingress subdomain" displayed in the "Overview" of the cluster:
-
-![OS Create 1g](images/os_worker_rdy3.png)
-
-Access the OpenShift Web Console via the button (1) in this dialog. 
-
-![OS Webconsole](images/os_webconsole.png)
-
-You have seen and used this Web Console in the interactive tutorials in Part 3. But notice the User ID (1) and the down arrow to right of it. If you click on it you will see an important option: "Copy Login Command". This allows you to login to your OpenShift cluster on IBM Cloud with the `oc`CLI. But first you need to install the CLI.
-
-This part of the workshop is divided in two sections:
+This workshop is divided in two sections:
 
   A. Working with the OpenShift Web Console 
   
@@ -82,6 +70,7 @@ This part of the workshop is divided in two sections:
 
 
 ### A. Deploy an application from the Web Console
+Go to the OpenShift Web Console page. 
 
 1. In the OpenShift Web Console, click "+ Create Project" and give your project a name, e.g. "blog". Click "Create".
 
