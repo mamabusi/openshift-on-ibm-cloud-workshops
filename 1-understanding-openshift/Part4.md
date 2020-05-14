@@ -80,11 +80,12 @@ Go to the OpenShift Web Console page.
 ![OS_CreateProject](images/os_createproject.png)
 ![OS_ProjectDetails](images/os_projectdetails.png)
 
-2. Click on your new project "blog" in the "My Projects" list. This opens the projects Overview, which is empty and offers you some "Get started" options.
+2. You see that it is displaying the content of your project but currently it has no workloads. It offers a bunch of options to create in your project. 
 
 ![OS Project Overview](images/os_project_overview.png)
 
-3. Click on "Deploy Image".
+3. Click on "".
+![OS Deploy_image](images/os_selectcontainerimage.png)
 
 4. Select "Image Name" and enter `openshiftkatacoda/blog-django-py` as name, then click on the "magnifying glass". 
 
