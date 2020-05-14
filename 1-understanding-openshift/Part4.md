@@ -71,14 +71,14 @@ This workshop is divided in two sections:
 
 ### A. Deploy an application from the Web Console
 Go to the OpenShift Web Console page.
-![OS_Webconsole](os_webconsole.png)
+![OS_Webconsole](images/os_webconsole.png)
 
 1. In the OpenShift Web Console, click "+Add" in the options available on the left.
-![OS_AddProject](os_addproject.png)
+![OS_AddProject](images/os_addproject.png)
 
 2. Click on "create a project" and in the pop-up page, give your project a name, e.g. "myfirstproject". Click "Create".
-![OS_CreateProject](os_createproject.png)
-![OS_ProjectDetails](os_projectdetails.png)
+![OS_CreateProject](images/os_createproject.png)
+![OS_ProjectDetails](images/os_projectdetails.png)
 
 2. Click on your new project "blog" in the "My Projects" list. This opens the projects Overview, which is empty and offers you some "Get started" options.
 
