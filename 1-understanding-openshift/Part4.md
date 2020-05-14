@@ -60,7 +60,7 @@ You should now be able to login successfully to your cluster.
 
 ## Deploy an application on OpenShift on the IBM Cloud
 
-The setup of the OpenShift cluster must be completed to be able to run through this workshop. 
+The above setup of the OpenShift cluster must be completed to be able to run through this workshop. 
 
 This workshop is divided in two sections:
 
@@ -70,9 +70,15 @@ This workshop is divided in two sections:
 
 
 ### A. Deploy an application from the Web Console
-Go to the OpenShift Web Console page. 
+Go to the OpenShift Web Console page.
+![OS_Webconsole](os_webconsole.png)
 
-1. In the OpenShift Web Console, click "+ Create Project" and give your project a name, e.g. "blog". Click "Create".
+1. In the OpenShift Web Console, click "+Add" in the options available on the left.
+![OS_AddProject](os_addproject.png)
+
+2. Click on "create a project" and in the pop-up page, give your project a name, e.g. "myfirstproject". Click "Create".
+![OS_CreateProject](os_createproject.png)
+![OS_ProjectDetails](os_projectdetails.png)
 
 2. Click on your new project "blog" in the "My Projects" list. This opens the projects Overview, which is empty and offers you some "Get started" options.
 
