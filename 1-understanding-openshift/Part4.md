@@ -77,6 +77,7 @@ Go to the OpenShift Web Console page.
 ![OS_AddProject](images/os_addproject.png)
 
 2. Click on "create a project" and in the pop-up page, give your project a name, e.g. "myfirstproject". Click "Create".
+
 ![OS_CreateProject](images/os_createproject.png)
 ![OS_ProjectDetails](images/os_projectdetails.png)
 
@@ -85,6 +86,7 @@ Go to the OpenShift Web Console page.
 ![OS Project Overview](images/os_project_overview.png)
 
 3. Click on "Container Image". We will be deploying an existing image from an image registry.
+
 ![OS Deploy_image](images/os_selectcontainerimage.png)
 
 4. Select "Image Name" and enter `openshiftkatacoda/blog-django-py` as name, then click on the "magnifying glass". 
@@ -101,25 +103,21 @@ Go to the OpenShift Web Console page.
 
 7. You should see that the pod is being deployed.
 
-
-In the project overview, click on the twistie (1) to open the overview of the application. This example should be familiar, it was used in the second tutorial on the Red Hat Learning portal.
-Create a Route (2), accept the defaults, and click on the resulting URL. The blog application should open.
-If you want, scale the deployment up and down (3). 
-
-![OS Deploy 4](images/os_deploy_4.png)
-
 ![OS_Deployed](images/os_deployingpod.png)
 
 
 8. Click on the "Open URL" option to view the deployed application on the browser. 
+
 ![OS_PodOpenURL](images/os_pod_openurl.png)
 
-9. Click on "List view" to see the pod overview and resources. You can scale the number of pods and reduce them as well. 
+9. Click on "List view" to see the pod overview and resources. 
+
 ![OS_Pod_ListView](images/os_pod_listview.png)
 ![OS_Pod_OverView](images/os_pod_overview.png)
 ![OS_Pod_Resources](images/os_pod_resources.png)
 
 10. You can scale the number of pods and reduce them as well in the "Overview" page. 
+
 ![OS_Pod_Scale](images/os_pod_scaling.png)
 ![OS_Pod_Scale](images/os_pod_scaled.png)
 
