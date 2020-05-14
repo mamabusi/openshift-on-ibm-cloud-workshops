@@ -276,8 +276,8 @@ route.route.openshift.io/blog-django-py exposed
 ```
 $ oc get route/blog-django-py
 
-NAME             HOST/PORT                                                                                                               PATH      SERVICES         PORT       TERMINATION   WILDCARD
-blog-django-py   blog-django-py-blog.harald-uebele-openshift-5290c8c8e5797924dc1ad5d1bcdb37c0-0001.us-south.containers.appdomain.cloud             blog-django-py   8080-tcp                 None
+NAME             HOST/PORT                                                                                                            PATH      SERVICES         PORT       TERMINATION   WILDCARD
+blog-django-py   blog-django-py-myfirstproject.osbangalore11-0e3e0ef4c9c6d831e8aa6fe01f33bfc4-0000.eu-de.containers.appdomain.cloud             blog-django-py   8080-tcp                 None
 ```
 
 You can see the very long URL. If you want, copy it and open it in your browser.
@@ -286,9 +286,9 @@ You can see the very long URL. If you want, copy it and open it in your browser.
    This command takes a while to complete.
 
 ```
-$ oc delete project blog
+$ oc delete project myfirstproject
 
-project.project.openshift.io "blog" deleted
+project.project.openshift.io "myfirstproject" deleted
 ```
 You can also delete a complete project from the Web Console.
 
@@ -296,10 +296,3 @@ You can also delete a complete project from the Web Console.
 
 
 Congratulations! You have completed this workshop!  
-
-
-
-__Continue with the second workshop__ in this series: "[Deploying Java Microservices to OpenShift on IBM Cloud](https://github.com/nheidloff/openshift-on-ibm-cloud-workshops/tree/master/2-deploying-to-openshift#deploying-java-microservices-to-openshift-on-ibm-cloud)".
-
-
-__Back to the [overview](https://github.com/nheidloff/openshift-on-ibm-cloud-workshops#openshift-on-ibm-cloud-workshops)__
