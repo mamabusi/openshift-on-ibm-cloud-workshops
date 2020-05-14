@@ -1,5 +1,6 @@
 ## Claiming Your Red Hat OpenShift Cluster for This Workshop
 
+### Step1:
 For the purpose of this workshop organizers pre-provisioned for attendees free Red Hat OpenShift Clusters. Thanks to that you can try and learn on how to use them.
 Use the following URL: https://osbangalore.mybluemix.net to claim the clusters.
 
@@ -7,7 +8,7 @@ OS Lab Key: oslab
 
 ![OS_claimcluster](images/os_claimcluster.png)
 
-
+### Step2:
 Enter the Lab Key given by your instructor, as well as the email address associated with your IBM Cloud account.
 After you hit submit, you will be given a cluster for the duration of the workshop.
 You should be given the result page showing the successful assignment.
@@ -15,6 +16,7 @@ You should be given the result page showing the successful assignment.
 ![OS_clusteraccess](images/os_clustersuccess.png)
 
 Click on Login to IBM Cloud account to view the cluster.
+
 
 ## Deploy an application on OpenShift on the IBM Cloud
 
