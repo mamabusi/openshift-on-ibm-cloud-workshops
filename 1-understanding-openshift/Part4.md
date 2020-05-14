@@ -84,7 +84,7 @@ Go to the OpenShift Web Console page.
 
 ![OS Project Overview](images/os_project_overview.png)
 
-3. Click on "".
+3. Click on "Container Image". We will be deploying an existing image from an image registry.
 ![OS Deploy_image](images/os_selectcontainerimage.png)
 
 4. Select "Image Name" and enter `openshiftkatacoda/blog-django-py` as name, then click on the "magnifying glass". 
@@ -95,7 +95,7 @@ Go to the OpenShift Web Console page.
 
 ![OS Deploy 2](images/os_deploy_2.png)
 
-6. Leave the defaults and click "Deploy". In the resulting dialog click the "Continue to the project overview" link.
+6. Leave the defaults and click "Create". 
 
 ![OS Deploy 3](images/os_deploy_3.png)
 
