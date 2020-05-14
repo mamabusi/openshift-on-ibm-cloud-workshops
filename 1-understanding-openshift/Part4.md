@@ -21,15 +21,40 @@ Click on Login to IBM Cloud account to view the cluster.
 Upon login you should be able to view the cluster as below:
 ![OS_clusterhome](images/os_clusterhome.png)
 
-### Step4:
+## Access the OpenShift Webconsole
+
+### Step1:
 Click on the cluster.
 ![OS_clusterinfo](images/os_clusterinfo.png)
 
-### Step5:
+### Step2:
 Click on 'OpenShift web console' button.
 Verify that pop-ups are enabled on the browser for this site.
 
 ![OS_openconsole](images/os_webconsole.png)
+
+## Access the Command Line Interface
+
+### Step1:
+Use the following url to open the Cloud shell:  https://shell.cloud.ibm.com/
+![OS_cloudshell](images/os_cloudshell.png)
+
+### Step2:
+To login to connect to your OpenShift cluster, 
+(i) Click on your account button displayed on the top right corner. From the dropdown, click on 'Copy Login Command'
+![OS_copylogin](images/os_copylogin.png)
+
+(ii) A new browser window is opened. Click on 'Display Token' to view the accont details.
+![OS_displaytoken](images/os_displaytoken.png)
+
+(iii) You should be able to view the login details. Copy the login command under the section: "Login with this token"
+![OS_copytoken](images/os_copytoken.png)
+
+(iv) Paste it in the opened cloud shell command prompt and click 'Enter'
+![OS_cslogin](images/os_cslogin.png)
+
+You should now be able to login successfully to your cluster.
+
 
 
 ## Deploy an application on OpenShift on the IBM Cloud
