@@ -99,11 +99,30 @@ Go to the OpenShift Web Console page.
 
 ![OS Deploy 3](images/os_deploy_3.png)
 
-7. In the project overview, click on the twistie (1) to open the overview of the application. This example should be familiar, it was used in the second tutorial on the Red Hat Learning portal.
+7. You should see that the pod is being deployed.
+
+
+In the project overview, click on the twistie (1) to open the overview of the application. This example should be familiar, it was used in the second tutorial on the Red Hat Learning portal.
 Create a Route (2), accept the defaults, and click on the resulting URL. The blog application should open.
 If you want, scale the deployment up and down (3). 
 
 ![OS Deploy 4](images/os_deploy_4.png)
+
+![OS_Deployed](images/os_deployingpod.png)
+
+
+8. Click on the "Open URL" option to view the deployed application on the browser. 
+![OS_PodOpenURL](images/os_pod_openurl.png)
+
+9. Click on "List view" to see the pod overview and resources. You can scale the number of pods and reduce them as well. 
+![OS_Pod_ListView](images/os_pod_listview.png)
+![OS_Pod_OverView](images/os_pod_overview.png)
+![OS_Pod_Resources](images/os_pod_resources.png)
+
+10. You can scale the number of pods and reduce them as well in the "Overview" page. 
+![OS_Pod_Scale](images/os_pod_scaling.png)
+![OS_Pod_Scale](images/os_pod_scaled.png)
+
 
 ### B. Deploy an application with `oc` from the command line 
 
