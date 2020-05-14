@@ -126,13 +126,6 @@ Go to the OpenShift Web Console page.
 
 The OpenShift `oc` command line tool includes all the functionality of the Kubernetes native `kubectl` CLI but it has also all the function required for OpenShift specifics, e.g. a `login` command to access the OpenShift cluster.
 
-### Install the OpenShift `oc` CLI
-
-Go back to the IBM Cloud Dashboard and display your OpenShift cluster. If you closed the IBM Cloud Dashboard you can find OpenShift clusters [here](https://cloud.ibm.com/kubernetes/clusters?platformType=openshift).
-
-In the "Access" section of your cluster is detailed information about installing the `oc`CLI and and the different methods to get access to your cluster.
-
-![OS Access](images/os_access.png)
 
 ### Login to the OpenShift Cluster
 
@@ -148,39 +141,41 @@ Keep the command line open but go back to the OpenShift Web Console.
 
 ### Working with the `oc` CLI
 
+If you have not logged into your OpenShift cluster on the Cloud shell, please do so by following the steps earlier in this workshop. 
 
-1. Go back to your command line where you used `oc`to logon to your OpenShift cluster.
 
-2. Switch to the project you created in the Web Console with:
+1. Switch to the project you created in the Web Console with:
 
 ```
-$ oc project blog
+$ oc project myfirstproject
 
-Now using project "blog" on server "https://c100-e.us-south.containers.cloud.ibm.com:30***".
+Now using project "myfirstproject" on server "https://c100-e.eu-de.containers.cloud.ibm.com:31558".
 ```
 
-3. Display all objects that belong to your project:
+2. Display all objects that belong to your project:
 
 ```
 $ oc get all -o name
 
-pod/blog-django-py-1-qk7d9
-replicationcontroller/blog-django-py-1
+pod/blog-django-py-6b787ccc9f-xlljf
 service/blog-django-py
-deploymentconfig.apps.openshift.io/blog-django-py
+deployment.apps/blog-django-py
+replicaset.apps/blog-django-py-6b787ccc9f
+replicaset.apps/blog-django-py-6b79c9fbb9
 imagestream.image.openshift.io/blog-django-py
 route.route.openshift.io/blog-django-py
 ```
 
-4. Display all objects that are labeled with your app name, the list should be the same as before:
+3. Display all objects that are labeled with your app name, the list should be the same as before:
 
 ```
 $ oc get all -l app=blog-django-py -o name
 
-pod/blog-django-py-1-qk7d9
-replicationcontroller/blog-django-py-1
+pod/blog-django-py-6b787ccc9f-xlljf
 service/blog-django-py
-deploymentconfig.apps.openshift.io/blog-django-py
+deployment.apps/blog-django-py
+replicaset.apps/blog-django-py-6b787ccc9f
+replicaset.apps/blog-django-py-6b79c9fbb9
 imagestream.image.openshift.io/blog-django-py
 route.route.openshift.io/blog-django-py
 ```
@@ -190,10 +185,11 @@ route.route.openshift.io/blog-django-py
 ```
 $ oc delete all -l app=blog-django-py -o name
 
-pod/blog-django-py-1-qk7d9
-replicationcontroller/blog-django-py-1
+pod/blog-django-py-6b787ccc9f-xlljf
 service/blog-django-py
-deploymentconfig.apps.openshift.io/blog-django-py
+deployment.apps/blog-django-py
+replicaset.apps/blog-django-py-6b787ccc9f
+replicaset.apps/blog-django-py-6b79c9fbb9
 imagestream.image.openshift.io/blog-django-py
 route.route.openshift.io/blog-django-py
 ```
@@ -220,7 +216,7 @@ openshiftkatacoda/blog-django-py
 ```
 $ oc new-app openshiftkatacoda/blog-django-py
 
---> Found Docker image 927f823 (2 months old) from Docker Hub for "openshiftkatacoda/blog-django-py"
+--> Found Docker image 927f823 (11 months old) from Docker Hub for "openshiftkatacoda/blog-django-py"
 
     Python 3.5 
     ---------- 
@@ -248,18 +244,21 @@ $ oc new-app openshiftkatacoda/blog-django-py
 ```
 $ oc status --suggest
 
-In project blog on server https://c100-e.us-south.containers.cloud.ibm.com:30634
+In project myfirstproject on server https://c100-e.eu-de.containers.cloud.ibm.com:31558
 
-svc/blog-django-py - 172.21.51.187:8080
+svc/blog-django-py - 172.21.126.135:8080
   dc/blog-django-py deploys istag/blog-django-py:latest 
-    deployment #1 deployed 56 seconds ago - 1 pod
+    deployment #1 deployed 35 seconds ago - 1 pod
 
 Info:
+  * pod/blog-django-py-1-deploy has no liveness probe to verify pods are still running.
+    try: oc set probe pod/blog-django-py-1-deploy --liveness ...
   * dc/blog-django-py has no readiness probe to verify pods are ready to accept traffic or ensure deployment is successful.
     try: oc set probe dc/blog-django-py --readiness ...
   * dc/blog-django-py has no liveness probe to verify pods are still running.
     try: oc set probe dc/blog-django-py --liveness ...
 
+View details with 'oc describe <resource>/<name>' or list everything with 'oc get all'.
 ```
 
 The --suggest options even gives you infos on things that are missing in your configuration.
