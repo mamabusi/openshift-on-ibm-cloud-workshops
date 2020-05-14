@@ -17,6 +17,19 @@ You should be given the result page showing the successful assignment.
 
 Click on Login to IBM Cloud account to view the cluster.
 
+### Step3:
+Upon login you should be able to view the cluster as below:
+![OS_clusterhome](images/os_clusterhome.png)
+
+### Step4:
+Click on the cluster.
+![OS_clusterinfo](images/os_clusterinfo.png)
+
+### Step5:
+Click on 'OpenShift web console' button.
+Verify that pop-ups are enabled on the browser for this site.
+![OS_openconsole](images/os_webconsole.png)
+
 
 ## Deploy an application on OpenShift on the IBM Cloud
 
