@@ -1,4 +1,15 @@
-## Part 4: Deploy an application on OpenShift on the IBM Cloud
+## Claiming Your Red Hat OpenShift Cluster for This Workshop
+
+For the purpose of this workshop organizers pre-provisioned for attendees free Red Hat OpenShift Clusters. Thanks to that you can try and learn on how to use them.
+Use the following URL: https://osbangalore.mybluemix.net to claim the clusters.
+
+![OS_claimcluster](images/os_claimcluster.png)
+
+
+
+
+
+## Deploy an application on OpenShift on the IBM Cloud
 
 The setup of the OpenShift cluster must be completed to finish this workshop. It is completely set up when the worker node(s) show a status of "Normal" in the "Worker Nodes" section __AND__
 
