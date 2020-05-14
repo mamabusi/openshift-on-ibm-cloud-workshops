@@ -28,6 +28,7 @@ Click on the cluster.
 ### Step5:
 Click on 'OpenShift web console' button.
 Verify that pop-ups are enabled on the browser for this site.
+
 ![OS_openconsole](images/os_webconsole.png)
 
 
